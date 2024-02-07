@@ -1,0 +1,18 @@
+debug: false
+uuid: cb70aa84-95a1-425f-923e-d5807eb21823
+token_id: 794bA4n4bIsZ1WQV
+token: 7lR6zUs5vymz3jtuZjCleQ4EP8ZtxZ7MKTQGCApKyaw3LeikcewTThkNkcLmoqsq
+api:
+  host: 0.0.0.0
+  port: 443
+  ssl:
+    enabled: false
+    cert: /etc/letsencrypt/live/9cfc-20-244-122-148.ngrok-free.app/fullchain.pem
+    key: /etc/letsencrypt/live/9cfc-20-244-122-148.ngrok-free.app/privkey.pem
+  upload_limit: 100
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://stunning-dollop-g4xqxv6pjvjpc9ppq-80.app.github.dev'
